@@ -1,0 +1,24 @@
+{
+  "name": "02-angular-ngroute",
+  "version": "1.0.0",
+  "description": "Aprendiendo a enrutar nuestra applicación en Angular con ngRoute",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codigodiario/02-angular-ngRoute.git"
+  },
+  "author": "Fridox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codigodiario/02-angular-ngRoute/issues"
+  },
+  "homepage": "https://github.com/codigodiario/02-angular-ngRoute#readme",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aprendiendo a enrutar nuestra applicación en Angular con ngRoute</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
+	<script src="app.js"></script>
+
+</head>
+<body ng-app="codigodiario" ng-controller="IndexCtrl">
+	<div class="navbar">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#/">Inicio</a>
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="/#vista1">Vista 1</a>
+				</li>
+				<li>
+					<a href="/#vista2">Vista 2</a>
+				</li>
+			</ul
+>		</div>
+	</div>
+	<div class="container-fluid">
+		hola mundo
+		<div ng-view></div>
+	</div>
+	
+</body>
+</html>
